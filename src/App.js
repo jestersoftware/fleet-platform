@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import ReactTransitionGroupAnime from './components/example/example-animation'
+import ExampleAnimation from './components/example/example-animation'
+import ExampleOrgUnit from './components/example/data/example-orgunit'
 
 class App extends Component {
   render() {
@@ -19,7 +20,10 @@ class App extends Component {
           Using react transition group + animejs
         </p>
         <div>
-          <ReactTransitionGroupAnime />
+          <ExampleAnimation />
+        </div>
+        <div>
+          <ExampleOrgUnit />
         </div>
       </div>
     );
