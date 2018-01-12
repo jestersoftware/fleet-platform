@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import ExampleAnimation from './components/example/example-animation'
+import ExampleAnimation from './components/example/animation/example-animation'
 import ExampleOrgUnit from './components/example/data/example-orgunit'
 
 class App extends Component {
